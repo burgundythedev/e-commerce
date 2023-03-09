@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fooclothing/static/css/main.ab44051d.css",
+    "main.js": "/fooclothing/static/js/main.826d1286.js",
+    "static/media/shop.jpg": "/fooclothing/static/media/shop.7dd0b3164317a342bf85.jpg",
+    "static/media/Karhu Fusion 2.0.jpg": "/fooclothing/static/media/Karhu Fusion 2.0.b7a9dc55b511f2fbb9a9.jpg",
+    "static/media/Air Jordan 1 Mid SE Craft «Inside Out».jpg": "/fooclothing/static/media/Air Jordan 1 Mid SE Craft «Inside Out».ffb6a4febd1b367a84ff.jpg",
+    "static/media/asicsgel1090.jpg": "/fooclothing/static/media/asicsgel1090.3238170d8fbfeb06ee89.jpg",
+    "static/media/Wmns Air Jordan 1 Retro High OG «Reverse Laney».jpg": "/fooclothing/static/media/Wmns Air Jordan 1 Retro High OG «Reverse Laney».dc9b4cda9fb45888cf96.jpg",
+    "static/media/Nike Air Max 1 Premium «Crepe».jpg": "/fooclothing/static/media/Nike Air Max 1 Premium «Crepe».f315d0b239c3d6257698.jpg",
+    "static/media/Air Jordan Legacy 312 «Rookie Of The Year».jpg": "/fooclothing/static/media/Air Jordan Legacy 312 «Rookie Of The Year».777d2c1d0fecc49850f5.jpg",
+    "static/media/conversechuck70.jpg": "/fooclothing/static/media/conversechuck70.143bd48818d5a423c36b.jpg",
+    "static/media/conversechuck70color.jpg": "/fooclothing/static/media/conversechuck70color.ee338b2d029fd95bc72f.jpg",
+    "static/media/nikevest.jpg": "/fooclothing/static/media/nikevest.414f50d1c8b9bf1b982e.jpg",
+    "static/media/nb530.jpg": "/fooclothing/static/media/nb530.4acfc3801fac614a4b91.jpg",
+    "static/media/nb997.jpg": "/fooclothing/static/media/nb997.a0a157d76395d042c7b9.jpg",
+    "static/media/Wmns Asics Gel-Nimbus 25.jpg": "/fooclothing/static/media/Wmns Asics Gel-Nimbus 25.328c070273ea1c937375.jpg",
+    "static/media/Lacoste Short.jpg": "/fooclothing/static/media/Lacoste Short.370636a2083f9f6b6bf0.jpg",
+    "static/media/Adidas Gazelle Indoor.jpg": "/fooclothing/static/media/Adidas Gazelle Indoor.0e6d05eef1957601d912.jpg",
+    "static/media/lacosteg80.jpg": "/fooclothing/static/media/lacosteg80.3d2b2dcd0844fe5e5d63.jpg",
+    "static/media/foo.png": "/fooclothing/static/media/foo.9240936bbe1b0a80a288.png",
+    "index.html": "/fooclothing/index.html",
+    "main.ab44051d.css.map": "/fooclothing/static/css/main.ab44051d.css.map",
+    "main.826d1286.js.map": "/fooclothing/static/js/main.826d1286.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab44051d.css",
+    "static/js/main.826d1286.js"
+  ]
+}
