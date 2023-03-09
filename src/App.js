@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.scss";
+import MainLayout from "./pages/MainLayout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import SingleProduct from "./pages/SingleProduct";
+import Posts from "./pages/Posts";
+import Error from "./pages/Error";
+import { Helmet } from "react-helmet";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>FooClothing</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="FooClothing" />
+      </Helmet>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="products" element={<Products />} />
+            <Route path="products/:productId" element={<SingleProduct />} />
+            <Route path="posts" element={<Posts />} />
+            <Route path="*" element={<Error />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

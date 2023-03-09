@@ -1,0 +1,169 @@
+.single {
+  &__container {
+    padding: 60px 0;
+    background: #e6e6e6;
+  }
+
+  &__content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @media screen and (max-width: 1650px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-family: "Climate Crisis", cursive;
+    text-align: center;
+    @media screen and (max-width: 550px) {
+      font-size: 22px;
+        }
+  }
+
+  &__box-link {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    @media screen and (max-width: 1650px) {
+      padding: 0;
+    }
+    @media screen and (max-width: 1250px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+
+  &__items {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    @media screen and (max-width: 550px) {
+      font-size: 15px;
+        }
+
+    &:link {
+      color: black;
+    }
+
+    &:visited {
+      color: black;
+    }
+
+    &:hover {
+      color: #4285f4;
+    }
+  }
+
+  &__items_active {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: #4285f4;
+    @media screen and (max-width: 550px) {
+      font-size: 15px;
+        }
+  }
+
+  &__box-content {
+    background-color: white;
+  }
+
+  &__details-content {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__img {
+    width: 500px;
+    height: 400px;
+    padding-right: 50px;
+    @media screen and (max-width: 850px) {
+     padding: 0;
+      }
+      @media screen and (max-width: 550px) {
+       width: 300px;
+       height: 300px;
+         }
+  }
+
+  &__name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    @media screen and (max-width: 1650px) {
+      font-size: 25px;
+     }
+
+  }
+  &__pathname {
+    font-family: "Montserrat", sans-serif;
+    color: red;
+    @media screen and (max-width: 850px) {
+      text-align: center;
+      }
+  }
+
+  &__price {
+    font-family: "Montserrat", sans-serif;
+    color: #4285f4;
+    margin-left: 5px;
+    font-size: 20px;
+    @media screen and (max-width: 850px) {
+      text-align: center;
+      }
+  }
+
+  &__details {
+    font-family: "Climate Crisis", cursive;
+    @media screen and (max-width: 850px) {
+      text-align: center;
+      }
+  }
+  &__box-button {
+    @media screen and (max-width: 1650px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    @media screen and (max-width: 850px) {
+      align-items: center;
+      }
+  }
+  &__button {
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    &:hover {
+      background-color: grey;
+    }
+    @media screen and (max-width: 1650px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.home {
+  background-color: #fff;
+
+  &__container {
+    padding: 60px 0;
+    background: #e6e6e6;
+  }
+
+  &__box-title {
+    margin-left: 355px;
+    margin-right: 355px;
+
+    @media screen and (max-width: 1580px) {
+      margin: 0;
+    }
+  }
+
+  &__title {
+    color: #333;
+    font-size: 32px;
+    margin: 0;
+    font-family: "Climate Crisis", cursive;
+
+    @media screen and (max-width: 1680px) {
+      text-align: center;
+    }
+    @media screen and (max-width: 650px) {
+      font-size: 25px;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 18px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &__img {
+    width: 1200px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 50px;
+    @media screen and (max-width: 1280px) {
+      width: 800px;
+    }
+    @media screen and (max-width: 900px) {
+      width: 600px;
+    }
+    @media screen and (max-width: 650px) {
+      width: 400px;
+    }
+    @media screen and (max-width: 500px) {
+      width: 320px;
+      height: 320px;
+    }
+  }
+
+  &__text {
+    max-width: 1200px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    @media screen and (max-width: 1280px) {
+      width: 800px;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 600px;
+      font-size: 17px;
+      text-align: justify;
+    }
+    @media screen and (max-width: 650px) {
+      width: 400px;
+      font-size: 15px;
+      text-align: justify;
+    }
+    @media screen and (max-width: 500px) {
+      width: 300px;
+    }
+  }
+}

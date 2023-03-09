@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:wght@200&display=swap");
+.footer {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  &__container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+  }
+
+  &__items {
+
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+    &:link {
+      color: #4285f4;
+    }
+
+    &:visited {
+      color: white;
+    }
+
+    &:hover {
+      color: #4285f4;
+    }
+    @media screen and (max-width: 650px) {
+      font-size: 10px;
+    }
+  }
+
+  &__items_active {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-decoration: 1px solid overline white;
+    @media screen and (max-width: 650px) {
+      font-size: 10px;
+    }
+  }
+
+  &__text {
+    color: white;
+    font-size: 13px;
+  }
+}
