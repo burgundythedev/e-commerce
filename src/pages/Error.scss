@@ -1,0 +1,40 @@
+.error {
+  background-color: white;
+  &__container {
+    padding: 60px 0;
+    background: #e6e6e6;
+  }
+  &__text {
+    font-family: "Climate Crisis", cursive;
+    margin-left: 355px;
+    @media screen and (max-width: 900px) {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  &__box {
+    padding: 60px 0;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 355px;
+    @media screen and (max-width: 900px) {
+      text-align: center;
+      margin: 0;
+    }
+
+
+  }
+  &__link{
+ 
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    &:hover {
+      background-color: grey;
+    }
+  }
+
+
+}

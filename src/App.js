@@ -15,7 +15,10 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>FooClothing</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link
+          rel="canonical"
+          href="https://burgundythedev.github.io/e-commerce"
+        />
         <meta name="description" content="FooClothing" />
       </Helmet>
       <BrowserRouter>

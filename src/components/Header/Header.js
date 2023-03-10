@@ -21,7 +21,7 @@ function Header() {
             Home
           </NavLink>
           <NavLink
-            to="/about"
+            to="about"
             className={(navData) =>
               navData.isActive ? "header__items_active" : "header__items"
             }
@@ -29,7 +29,7 @@ function Header() {
             About
           </NavLink>
           <NavLink
-            to="/products"
+            to="products"
             className={(navData) =>
               navData.isActive ? "header__items_active" : "header__items"
             }
@@ -37,7 +37,7 @@ function Header() {
             Products
           </NavLink>
           <NavLink
-            to="/posts"
+            to="posts"
             className={(navData) =>
               navData.isActive ? "header__items_active" : "header__items"
             }
