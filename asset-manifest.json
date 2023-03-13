@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/e-commerce/static/css/main.78e590e1.css",
-    "main.js": "/e-commerce/static/js/main.47a93984.js",
+    "main.js": "/e-commerce/static/js/main.fc7c3901.js",
     "static/media/shop.jpg": "/e-commerce/static/media/shop.7dd0b3164317a342bf85.jpg",
     "static/media/Karhu Fusion 2.0.jpg": "/e-commerce/static/media/Karhu Fusion 2.0.b7a9dc55b511f2fbb9a9.jpg",
     "static/media/Air Jordan 1 Mid SE Craft «Inside Out».jpg": "/e-commerce/static/media/Air Jordan 1 Mid SE Craft «Inside Out».ffb6a4febd1b367a84ff.jpg",
@@ -21,10 +21,10 @@
     "static/media/foo.png": "/e-commerce/static/media/foo.9240936bbe1b0a80a288.png",
     "index.html": "/e-commerce/index.html",
     "main.78e590e1.css.map": "/e-commerce/static/css/main.78e590e1.css.map",
-    "main.47a93984.js.map": "/e-commerce/static/js/main.47a93984.js.map"
+    "main.fc7c3901.js.map": "/e-commerce/static/js/main.fc7c3901.js.map"
   },
   "entrypoints": [
     "static/css/main.78e590e1.css",
-    "static/js/main.47a93984.js"
+    "static/js/main.fc7c3901.js"
   ]
 }
