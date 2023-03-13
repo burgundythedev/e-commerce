@@ -15,12 +15,15 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>FooClothing</title>
-        <link rel="canonical" href="https://burgundythedev.github.io/" />
+        <link
+          rel="canonical"
+          href="https://burgundythedev.github.io/e-commerce"
+        />
         <meta name="description" content="FooClothing" />
       </Helmet>
       <BrowserRouter>
         <Routes>
-          <Route path="/e-commerce" element={<MainLayout />}>
+          <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="products" element={<Products />} />
